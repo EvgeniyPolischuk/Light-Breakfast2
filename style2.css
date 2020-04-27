@@ -1,0 +1,184 @@
+body {
+  background: #f6f6f6;
+  margin: 0;
+}
+
+header {
+  background: white;
+}
+
+nav {
+  display: flex;
+  position: relative;
+}
+
+nav li {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+nav li a {
+  font-size: 12px;
+  font-family: monserat;
+  font-weight: normal;
+  color: #191919;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+nav li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+main {
+  height: 680px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.right-block {
+  background: url("images/light-art-building.jpg");
+  width: 570px;
+  height: 571px;
+  background-size: cover;
+}
+
+.left-block {
+  max-width: 438px;
+}
+
+span {
+  color: #171717;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+}
+
+li {
+  color: #787878;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.navigation-menu a {
+  font-size: 12px;
+  font-family: monserat;
+  font-weight: normal;
+  color: #191919;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.mirrorY {
+  transform: scale(-1, 1);
+}
+
+.previos-page a {
+  margin: 10px;
+}
+
+.next-page a {
+  margin: 10px;
+}
+
+.messenger a {
+  font-weight: normal;
+  text-decoration: none;
+  color: #787878;
+}
+
+.messenger a:hover {
+  font-weight: bold;
+}
+
+footer {
+  height: 284px;
+  background-color: #141414;
+}
+
+inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.communication, .support-service, .aside {
+  margin-top: 99px;
+}
+
+.communication {
+  margin-left: 98px;
+}
+
+.inc a, .author {
+  text-decoration: none;
+  color: #bcbcbc;
+  font-family: Montserrat;
+}
+
+.inc a, .author:hover {
+  color: #ffffff;
+}
+
+.aside {
+  display: flex;
+  margin-right: 131px;
+}
+
+.aside ul:last-child {
+  margin-left: 135px;
+}
+
+.aside ul li {
+  list-style-type: none;
+}
+
+.aside ul li a {
+  text-decoration: none;
+  color: #bcbcbc;
+  list-style-type: none;
+}
+
+.aside ul li a:hover {
+  color: #ffffff;
+}
+
+.support-service a {
+  text-decoration: none;
+  color: #bcbcbc;
+}
+
+.support-service a:hover {
+  color: #ffffff;
+}
+
+.aside ul li a, .support-service, .author {
+  font-family: "Nunito Sans";
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style2.css.map */
